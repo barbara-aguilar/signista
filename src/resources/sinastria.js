@@ -1,4 +1,4 @@
-[
+export default [
  {
    "signoMeu": "aries",
    "signoPar": "aries",
@@ -1152,3 +1152,4 @@
    "total": 93
  }
 ]
+
