@@ -202,3 +202,54 @@ color: white;
     border: solid 2px #a20950d2;
     transition: 1.5s;
 }
+
+/*Results*/
+.results_progress-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar__title{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+
+}
+
+/* #progressBarBorder{
+    background-color:white;
+    border-radius: 20px;
+    width: auto;
+    padding: 5px;
+} */
+
+#progressBarFiller{
+    background-color: #10e3ff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 5px;
+}
+
+#progressBarPercents{
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+#progressBarText{
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+
