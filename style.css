@@ -5,7 +5,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: auto;
     font-family: Roboto;
 }
 
@@ -78,11 +78,11 @@ color: white;
     justify-content: center;
 }
 .selection_logo{
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px auto;
+    margin: 5% auto;
     justify-content: center;
 }
 
@@ -127,7 +127,7 @@ color: white;
     width: 100%;
     padding: 12px 55px 15px 15px;
     font-size: 14px;
-    color: white
+    color: #000000
   }
   .custom-select:after {
     position: absolute;
@@ -138,7 +138,7 @@ color: white;
     line-height: 38px;
     content: "∨";
     text-align: center;
-    color: white;
+    color: #000000;
     font-size: 24px;
     border-left: 1px solid #00c5ff75;
     z-index: -1;
@@ -168,7 +168,7 @@ color: white;
     width: 100%;
     padding: 12px 55px 15px 15px;
     font-size: 14px;
-    color: white;
+    color: #000000;
   }
   .custom-select-par:after {
     position: absolute;
@@ -179,7 +179,7 @@ color: white;
     line-height: 38px;
     content: "∨";
     text-align: center;
-    color: white;
+    color: #000000;
     font-size: 24px;
     border-left: 1px solid #00c5ff75;
     z-index: -1;
@@ -193,7 +193,7 @@ color: white;
     border-radius: 15px;
     border: solid 2px #5d007bf0;
     width: 50%;
-    margin-top: 70px;
+    margin: 70px auto;
     text-transform: uppercase;
     letter-spacing: 0.3em;
 }
