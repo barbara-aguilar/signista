@@ -1155,32 +1155,11 @@ const sinastria = [
  
  
 
-const selectSignoMeu = document.getElementById("selectSignoMeu")
-const selectSignoPar = document.getElementById("selectSignoPar")
-const submit = document.getElementById("buttonSubmit")
-const results = document.querySelector(".container-2")
-const selectAll = document.querySelector(".selection_container")
+const results = document.querySelector(".results_progress-bar")
+const match = sinastria.find(item => item.signoMeu === selectSignoMeu.value && item.signoPar === selectSignoPar.value)
 
-submit.addEventListener("click", function () {
-  const match = sinastria.find(item => item.signoMeu === selectSignoMeu.value && item.signoPar === selectSignoPar.value)
-  console.log(match)
-
-  const innerResults = document.querySelector(".results_progress-bar")
-  results.style.display = "block"
-  selectAll.style.display = "none"
-  innerResults.innerHTML = `
-  
-    <ul>
-      <li class="results-love"> Compatibilidade no Amor ${match.amor}% </li>
-      <li class="results-friends">Compatibilidade na Amizade ${match.amizade}% </li>
-      <li class="results-sex"> Compatibilidade no Sexo ${match.sexo}% </li>
-      <li class="results-total"> Compatibilidade Total ${match.total}% </li>
-    </ul>
-    
-`
-
-})
-
-    
-
-
+results.innerHTML = `<div class="results-final">
+                    <ul>
+                      <li class="results-love">${match.amor}%>
+                    </ul>
+                    </div>`

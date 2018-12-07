@@ -26,6 +26,19 @@ body{
 
 h1{
     padding: 10px;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    margin: 0 1.5em;
+}
+
+.home_title{
+  padding: 10px;
+    text-transform: uppercase;
     font-size: 1em;
     text-align: center;
     color: white;
@@ -221,35 +234,21 @@ color: white;
 
 }
 
-/* #progressBarBorder{
-    background-color:white;
-    border-radius: 20px;
-    width: auto;
-    padding: 5px;
-} */
-
-#progressBarFiller{
-    background-color: #10e3ff;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    padding: 5px;
+.container-2 {
+  display:none;
+  background-color: rgba(187, 3, 194, 0.603);
+  height: 45vh;
+  width: 45vw;
+  margin: 0 auto;
+  border-radius: 40px;
 }
 
-#progressBarPercents{
-    text-align: center;
-    align-items: center;
-    color: white;
-}
-#progressBarText{
-    text-align: center;
-    color: white;
-    font-weight: 200;
-    font-size: 0.6em;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-}
+li {
+  list-style: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.8em;
+  color: white;
+  padding: 10px;
+  line-height: 1em;
 
-
+}
