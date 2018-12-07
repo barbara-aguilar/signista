@@ -1171,10 +1171,10 @@ submit.addEventListener("click", function () {
   innerResults.innerHTML = `
   
     <ul>
-      <li class="results-love"> Compatibilidade no Amor ${match.amor}% </li>
-      <li class="results-friends">Compatibilidade na Amizade ${match.amizade}% </li>
-      <li class="results-sex"> Compatibilidade no Sexo ${match.sexo}% </li>
-      <li class="results-total"> Compatibilidade Total ${match.total}% </li>
+      <li class="results-love"> Amor: <span class="results-number">${match.amor}%</span> </li>
+      <li class="results-friends"> Amizade: <span class="results-number">${match.amizade}% </span></li>
+      <li class="results-sex"> Sexo: <span class="results-number">${match.sexo}% </span></li>
+      <li class="results-total"> Total: <span class="results-number"> ${match.total}% </span></li>
     </ul>
     
 `
