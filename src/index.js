@@ -1168,16 +1168,30 @@ submit.addEventListener("click", function () {
   const innerResults = document.querySelector(".results_progress-bar")
   results.style.display = "block"
   selectAll.style.display = "none"
-  innerResults.innerHTML = `
-  
-    <ul>
-      <li class="results-love"> Amor: <span class="results-number">${match.amor}%</span> </li>
-      <li class="results-friends"> Amizade: <span class="results-number">${match.amizade}% </span></li>
-      <li class="results-sex"> Sexo: <span class="results-number">${match.sexo}% </span></li>
-      <li class="results-total"> Total: <span class="results-number"> ${match.total}% </span></li>
-    </ul>
-    
-`
+  innerResults.innerHTML = ` <div class="wrapper">
+                                  <h4> AMOR: </h4>
+                                <div class="progress-bar">
+                                  <span class="progress-bar-fill-love" style="width:${match.amor}%"><p class="progress-text">${match.amor}%</p></span>
+                                
+                                </div>
+                                <h4> AMIZADE: </h4>
+                                <div class="progress-bar">
+                                  <span class="progress-bar-fill-friend" style="width:${match.amizade}%"><p class="progress-text">${match.amizade}%</p></span>
+                                  
+                                </div>
+                                <h4> SEXO: </h4>
+                                <div class="progress-bar">
+                                  <span class="progress-bar-fill-sex" style="width:${match.sexo}%"><p class="progress-text">${match.sexo}%</p></span>
+                                  
+                                </div>
+                                <h4> TOTAL: </h4>
+                                <div class="progress-bar">
+                                  <span class="progress-bar-fill-total" style="width:${match.total}%"><p class="progress-text">${match.total}%</p></span>
+                                  
+                                </div>
+                                
+                              </div>`
+
 
 })
 
