@@ -239,7 +239,7 @@ color: white;
 .container-2 {
   display:none;
   background-color: #5d007b85;
-  height: 75%;
+  height: 70%;
   width: 60%;
   margin: 0 auto;
   border-radius: 40px;
@@ -251,7 +251,7 @@ color: white;
     padding-top: 10%;
   }
   .container-2{
-    height: 70%;
+    height: 85%;
     width: 80%;
     border-radius: 20px;
 
