@@ -1189,6 +1189,7 @@ submit.addEventListener("click", function () {
                                   <span class="progress-bar-fill-total" style="width:${match.total}%"><p class="progress-text">${match.total}%</p></span>
                                   
                                 </div>
+                                <a id="refresh" href="./selection.html">Combine Novamente</a>
                                 
                               </div>`
 
