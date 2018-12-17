@@ -1169,6 +1169,7 @@ submit.addEventListener("click", function () {
   results.style.display = "block"
   selectAll.style.display = "none"
   innerResults.innerHTML = ` <div class="wrapper">
+                                <h6>${selectSignoMeu.value} e ${selectSignoPar.value}</h6>
                                   <h4> AMOR: </h4>
                                 <div class="progress-bar">
                                   <span class="progress-bar-fill-love" style="width:${match.amor}%"><p class="progress-text">${match.amor}%</p></span>

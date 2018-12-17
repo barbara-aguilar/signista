@@ -258,6 +258,22 @@ color: white;
 }
 }
 
+@media (min-width: 1024px){
+  
+  #resultsTitle{
+    font-size: 2em;
+    padding-top: 5%;
+  }
+  .container-2{
+    height: 82%;
+    width: 80%;
+    border-radius: 20px;
+  }
+  h6{
+    font-size: 1.5em;
+  }
+}
+
 
 #refresh {
   margin: 1.5% auto;
@@ -268,7 +284,16 @@ color: white;
 
 
 .wrapper{
-  width: 70%;
+  width: 65%;
+  display: grid;
+}
+
+h6{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 auto;
+  font-weight: 300;
 }
 
 .progress-bar{
